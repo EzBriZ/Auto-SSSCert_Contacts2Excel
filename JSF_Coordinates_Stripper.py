@@ -40,7 +40,7 @@ def browse_shp():
     if file_path:
         try:
             #read shapefile
-            gdf = gpd.read_file("H:\jsf_automation\ShpUWTROC(P).shp")
+            gdf = gpd.read_file(f"{file_path}")
 
             #create list of coordinates
             xy = list(zip(gdf.geometry.x, gdf.geometry.y))
