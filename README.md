@@ -1,6 +1,4 @@
 # Auto-SSSCert_Contacts2Excel
 Takes a shp of SSS contacts and imports them into certification excel sheet
 
-Given test hips and excel sheet
-
-For easy use, download .exe file
+For easy use, see .exe file to the right in release v.1.0.0
